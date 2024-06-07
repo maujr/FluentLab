@@ -1,0 +1,38 @@
+body {
+    font-family: Nunito Sans;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 4rem;
+    width: 100vw;
+    gap: 2rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.aulas {
+    margin: 2rem 0 0 8rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: large;
+}
+
+#logo {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 400;
+
+    margin-left: 8rem;
+
+    background: linear-gradient(to top, #D4214B, #A40EB1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
